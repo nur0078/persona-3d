@@ -4,7 +4,7 @@ export function AboutSection() {
       <h2 className="text-neutral-50 text-3xl font-bold mb-8 border-b border-neutral-800 pb-2">
         About Me
       </h2>
-      <div className="bg-black/60 p-6 rounded-xl border border-neutral-800">
+      <div className="bg-black/60 p-8 rounded-xl border border-neutral-800">
         <p className="leading-relaxed text-lg">
           IT specialist with expertise in Windows Server, Microsoft 365,
           Azure, and enterprise device management. Skilled in automation,

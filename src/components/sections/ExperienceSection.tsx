@@ -5,9 +5,9 @@ export function ExperienceSection() {
         Professional Experience
       </h2>
 
-      <div className="space-y-6">
+      <div className="space-y-8">
         {/* Macquarie Group - Desktop Support Engineer */}
-        <div className="bg-black/60 p-5 rounded-xl border border-neutral-800">
+        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800">
           <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-3">
             <h3 className="font-medium text-neutral-100 text-lg">
               Desktop Support Engineer
@@ -57,7 +57,7 @@ export function ExperienceSection() {
         </div>
 
         {/* Macquarie Group - Tech Assist */}
-        <div className="bg-black/60 p-5 rounded-xl border border-neutral-800">
+        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800">
           <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-3">
             <h3 className="font-medium text-neutral-100 text-lg">
               Tech Assist
@@ -106,7 +106,7 @@ export function ExperienceSection() {
         </div>
 
         {/* ExtraTech */}
-        <div className="bg-black/60 p-5 rounded-xl border border-neutral-800">
+        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800">
           <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-3">
             <h3 className="font-medium text-neutral-100 text-lg">
               ICT Admin

@@ -4,7 +4,7 @@ export function EducationSection() {
       <h2 className="text-neutral-50 text-3xl font-bold mb-8 border-b border-neutral-800 pb-2">
         Education
       </h2>
-      <div className="bg-black/60 p-5 rounded-xl border border-neutral-800">
+      <div className="bg-black/60 p-6 rounded-xl border border-neutral-800">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center">
           <h3 className="font-medium text-neutral-100 text-lg">
             Bachelor of Information Technology

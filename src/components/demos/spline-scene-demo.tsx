@@ -14,7 +14,7 @@ export function SplineSceneDemo() {
       
       <div className="flex h-full flex-col-reverse md:flex-row">
         {/* Left content */}
-        <div className="flex-1 p-6 md:p-8 relative z-20 flex flex-col justify-center">
+        <div className="flex-1 p-8 md:p-12 relative z-20 flex flex-col justify-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
             Anurodh Pandey
           </h1>
