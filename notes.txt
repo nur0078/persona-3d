@@ -1,0 +1,21 @@
+├── client
+│   ├── src
+│   │   ├── components
+│   │   │   └── ui
+│   │   │       ├── button.tsx - done
+│   │   │       ├── card.tsx - done
+│   │   │       ├── navigation-menu.tsx - done
+│   │   │       ├── spline-scene.tsx - done
+│   │   │       └── spotlight.tsx
+│   │   ├── pages
+│   │   │   └── home.tsx - done
+│   │   ├── App.tsx - done
+│   │   └── index.css - done
+│   └── index.html - done
+├── server
+│   ├── index.ts
+│   ├── routes.ts
+│   └── vite.ts
+├── tailwind.config.ts
+├── theme.json
+└── vite.config.ts
