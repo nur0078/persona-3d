@@ -47,7 +47,7 @@ export function ContactSection() {
             +61 450 380 690
           </a>
           <a
-            href="https://www.linkedin.com/in/anurodh-pandey/"
+            href="https://www.linkedin.com/in/pandeyanurodh/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2.5 bg-white/10 hover:bg-white/20 transition-colors rounded-lg text-white text-sm border border-white/20 flex items-center gap-2"
