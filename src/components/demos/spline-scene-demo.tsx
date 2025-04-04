@@ -9,7 +9,7 @@ export function SplineSceneDemo() {
     <Card className="w-full h-[500px] bg-black/[0.96] relative overflow-hidden">
       <Spotlight 
         size={300}
-        className="z-0"
+        className="z-10"
       />
       
       <div className="flex h-full flex-col-reverse md:flex-row">

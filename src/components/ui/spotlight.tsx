@@ -28,8 +28,12 @@ export function Spotlight({
     if (containerRef.current) {
       const parent = containerRef.current.parentElement;
       if (parent) {
-        parent.style.position = 'relative';
-        parent.style.overflow = 'hidden';
+        if (!parent.style.position || parent.style.position === 'static') {
+          parent.style.position = 'relative';
+        }
+        if (!parent.style.overflow) {
+          parent.style.overflow = 'hidden';
+        }
         setParentElement(parent);
       }
     }
@@ -45,21 +49,27 @@ export function Spotlight({
     [mouseX, mouseY, parentElement]
   );
 
+  const handleMouseEnter = useCallback(() => {
+    setIsHovered(true);
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    setIsHovered(false);
+  }, []);
+
   useEffect(() => {
     if (!parentElement) return;
 
     parentElement.addEventListener('mousemove', handleMouseMove);
-    parentElement.addEventListener('mouseenter', () => setIsHovered(true));
-    parentElement.addEventListener('mouseleave', () => setIsHovered(false));
+    parentElement.addEventListener('mouseenter', handleMouseEnter);
+    parentElement.addEventListener('mouseleave', handleMouseLeave);
 
     return () => {
       parentElement.removeEventListener('mousemove', handleMouseMove);
-      parentElement.removeEventListener('mouseenter', () => setIsHovered(true));
-      parentElement.removeEventListener('mouseleave', () =>
-        setIsHovered(false)
-      );
+      parentElement.removeEventListener('mouseenter', handleMouseEnter);
+      parentElement.removeEventListener('mouseleave', handleMouseLeave);
     };
-  }, [parentElement, handleMouseMove]);
+  }, [parentElement, handleMouseMove, handleMouseEnter, handleMouseLeave]);
 
   return (
     <motion.div
@@ -75,7 +85,6 @@ export function Spotlight({
         height: size,
         left: spotlightLeft,
         top: spotlightTop,
-        zIndex: 10,
       }}
     />
   );
