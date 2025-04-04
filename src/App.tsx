@@ -1,10 +1,10 @@
-import { SplineSceneDemo } from "./components/demos/spline-scene-demo";
+import Home from "./pages/home";
 
 function App() {
   return (
-    <div>
-      <SplineSceneDemo />
-    </div >
+    <div className="min-h-screen bg-[#0f0f0f]">
+      <Home />
+    </div>
   );
 }
 

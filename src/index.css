@@ -1,16 +1,18 @@
 @import "tailwindcss";
 
-
-/* @layer base {
+@layer base {
   * {
-    /* @apply border-border;
+    /* @apply border-border; */
   }
 
   body {
-    /* @apply font-sans antialiased bg-background text-foreground; 
+    @apply font-sans antialiased bg-[#0f0f0f] text-neutral-300; 
   }
-} 
-*/
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-neutral-50;
+  }
+}
 
 @layer components {
   .loader {
@@ -32,4 +34,27 @@
       transform: rotate(360deg);
     }
   }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
