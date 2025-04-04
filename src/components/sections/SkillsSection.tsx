@@ -5,7 +5,7 @@ export function SkillsSection() {
         Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors">
+        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors illuminate">
           <h3 className="font-medium text-neutral-100 text-lg mb-4 pb-2 border-b border-neutral-800">
             Networking & Device Management
           </h3>
@@ -39,7 +39,7 @@ export function SkillsSection() {
           </ul>
         </div>
 
-        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors">
+        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors illuminate">
           <h3 className="font-medium text-neutral-100 text-lg mb-4 pb-2 border-b border-neutral-800">
             Languages & Tools
           </h3>
@@ -59,7 +59,7 @@ export function SkillsSection() {
           </ul>
         </div>
 
-        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors">
+        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors illuminate">
           <h3 className="font-medium text-neutral-100 text-lg mb-4 pb-2 border-b border-neutral-800">
             Support Tools
           </h3>
@@ -79,7 +79,7 @@ export function SkillsSection() {
           </ul>
         </div>
 
-        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors">
+        <div className="bg-black/60 p-6 rounded-xl border border-neutral-800 hover:border-neutral-700 transition-colors illuminate">
           <h3 className="font-medium text-neutral-100 text-lg mb-4 pb-2 border-b border-neutral-800">
             Email Management
           </h3>

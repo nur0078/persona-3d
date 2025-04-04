@@ -34,6 +34,14 @@
       transform: rotate(360deg);
     }
   }
+  
+  .illuminate {
+    @apply transition-all duration-300;
+  }
+  
+  .illuminate:hover {
+    @apply border-neutral-500 shadow-[0_0_15px_rgba(255,255,255,0.1)] bg-black/80 transform scale-[1.01];
+  }
 }
 
 /* Custom scrollbar */

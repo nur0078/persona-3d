@@ -4,7 +4,7 @@ export function ContactSection() {
       <h2 className="text-neutral-50 text-3xl font-bold mb-8 border-b border-neutral-800 pb-2">
         Contact Me
       </h2>
-      <div className="bg-black/60 p-8 rounded-xl border border-neutral-800">
+      <div className="bg-black/60 p-8 rounded-xl border border-neutral-800 illuminate">
         <p className="text-lg mb-6">
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
         </p>
